@@ -1,7 +1,7 @@
 /* FAQ Hero Section */
 .faq-hero {
     background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)),
-        url('/images/background.jpg') no-repeat center center/cover;
+        url('images/background.jpg') no-repeat center center/cover;
     color: white;
     padding: 6rem 0;
     text-align: center;
@@ -203,4 +203,5 @@
     .faq-contact-cta {
         padding: 2rem 1.5rem;
     }
+
 }
