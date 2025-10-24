@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Updates - Prime Minister Laptop Scheme</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="https://via.placeholder.com/50x50?text=Logo" alt="PM Laptop Scheme Logo">
+                    <h1>PM Laptop Scheme</h1>
+                </div>
+                <button class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="application.html">Application</a></li>
+                    <!-- <li><a href="news.html" class="active">News & Updates</a></li> -->
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- News Hero Section -->
+    <section class="news-hero">
+        <div class="container">
+            <h1>News & Updates</h1>
+            <p>Stay informed about the latest developments in the Prime Minister Laptop Scheme</p>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="section news-section">
+        <div class="container">
+            <div class="news-controls">
+                <div class="news-search">
+                    <input type="text" id="newsSearch" placeholder="Search news...">
+                    <i class="fas fa-search"></i>
+                </div>
+
+                <div class="news-filters">
+                    <button class="filter-btn active" data-filter="all">All News</button>
+                    <button class="filter-btn" data-filter="announcements">Announcements</button>
+                    <button class="filter-btn" data-filter="distribution">Distribution</button>
+                    <button class="filter-btn" data-filter="deadlines">Deadlines</button>
+                    <button class="filter-btn" data-filter="success">Success Stories</button>
+                </div>
+            </div>
+
+            <div class="news-container">
+                <div class="news-item" data-category="announcements">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250?text=Phase+4+Launch" alt="Phase 4 Launch">
+                        <span class="news-category">Announcements</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="far fa-calendar"></i> June 15, 2023</span>
+                            <span class="news-author"><i class="far fa-user"></i> Scheme Administration</span>
+                        </div>
+                        <h3 class="news-title">Phase 4 of PM Laptop Scheme Launched Nationwide</h3>
+                        <p class="news-excerpt">The government has officially launched Phase 4 of the Prime Minister
+                            Laptop Scheme, targeting 100,000 additional students across the country. Applications are
+                            now open for eligible students enrolled in public sector universities.</p>
+                        <a href="#" class="news-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item" data-category="distribution">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250?text=Laptop+Distribution"
+                            alt="Laptop Distribution">
+                        <span class="news-category">Distribution</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="far fa-calendar"></i> May 28, 2023</span>
+                            <span class="news-author"><i class="far fa-user"></i> Regional Office</span>
+                        </div>
+                        <h3 class="news-title">Laptop Distribution Ceremony Held at Punjab University</h3>
+                        <p class="news-excerpt">Over 2,500 laptops were distributed to deserving students at the
+                            University of Punjab in a ceremony attended by the Vice Chancellor and government officials.
+                            The event highlighted the scheme's impact on digital inclusion.</p>
+                        <a href="#" class="news-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item" data-category="deadlines">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250?text=Application+Deadline"
+                            alt="Application Deadline">
+                        <span class="news-category">Deadlines</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="far fa-calendar"></i> May 15, 2023</span>
+                            <span class="news-author"><i class="far fa-user"></i> Scheme Administration</span>
+                        </div>
+                        <h3 class="news-title">Extended Deadline for Balochistan Region Applications</h3>
+                        <p class="news-excerpt">The application deadline for students from Balochistan has been extended
+                            to June 30, 2023, to ensure maximum participation from the region. Students are encouraged
+                            to submit their applications before the new deadline.</p>
+                        <a href="#" class="news-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item" data-category="success">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250?text=Student+Success" alt="Student Success">
+                        <span class="news-category">Success Stories</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="far fa-calendar"></i> April 22, 2023</span>
+                            <span class="news-author"><i class="far fa-user"></i> Success Stories</span>
+                        </div>
+                        <h3 class="news-title">Laptop Recipient Develops Award-Winning App for Farmers</h3>
+                        <p class="news-excerpt">A student from a rural background who received a laptop through the
+                            scheme has developed a mobile application that helps farmers track crop prices and weather
+                            patterns, winning a national innovation award.</p>
+                        <a href="#" class="news-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item" data-category="announcements">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250?text=New+Features" alt="New Features">
+                        <span class="news-category">Announcements</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="far fa-calendar"></i> April 10, 2023</span>
+                            <span class="news-author"><i class="far fa-user"></i> Technical Team</span>
+                        </div>
+                        <h3 class="news-title">Application Portal Enhanced with New Features</h3>
+                        <p class="news-excerpt">The PM Laptop Scheme application portal has been updated with improved
+                            user interface, faster processing, and real-time application status tracking. Applicants can
+                            now also save their progress and resume later.</p>
+                        <a href="#" class="news-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item" data-category="distribution">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250?text=Remote+Areas" alt="Remote Areas">
+                        <span class="news-category">Distribution</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="far fa-calendar"></i> March 28, 2023</span>
+                            <span class="news-author"><i class="far fa-user"></i> Regional Office</span>
+                        </div>
+                        <h3 class="news-title">Special Distribution Drive for Remote Areas Initiated</h3>
+                        <p class="news-excerpt">A special distribution campaign has been launched to reach students in
+                            remote and underserved areas. Mobile distribution units will visit these regions to ensure
+                            no eligible student is left behind.</p>
+                        <a href="#" class="news-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item" data-category="success">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250?text=Research+Achievement"
+                            alt="Research Achievement">
+                        <span class="news-category">Success Stories</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="far fa-calendar"></i> March 15, 2023</span>
+                            <span class="news-author"><i class="far fa-user"></i> Success Stories</span>
+                        </div>
+                        <h3 class="news-title">Laptop Scheme Beneficiary Publishes Research in International Journal
+                        </h3>
+                        <p class="news-excerpt">A student who received a laptop through the scheme has published her
+                            research on renewable energy in a prestigious international journal, attributing her success
+                            to the technological support provided.</p>
+                        <a href="#" class="news-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item" data-category="deadlines">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250?text=Verification+Process"
+                            alt="Verification Process">
+                        <span class="news-category">Deadlines</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="far fa-calendar"></i> February 28, 2023</span>
+                            <span class="news-author"><i class="far fa-user"></i> Scheme Administration</span>
+                        </div>
+                        <h3 class="news-title">Document Verification Deadline Approaching for Phase 3</h3>
+                        <p class="news-excerpt">Selected applicants from Phase 3 are reminded that the deadline for
+                            document verification is March 15, 2023. Failure to complete verification may result in
+                            disqualification from the scheme.</p>
+                        <a href="#" class="news-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-pagination">
+                <button class="pagination-btn active">1</button>
+                <button class="pagination-btn">2</button>
+                <button class="pagination-btn">3</button>
+                <button class="pagination-btn next">Next <i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="section newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter to receive the latest news and updates about the Prime Minister Laptop
+                    Scheme directly in your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PM Laptop Scheme</h3>
+                    <p>Empowering students through technology for a brighter future.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="application.html">Application</a>
+                    <!-- <a href="news.html" class="active">News & Updates</a> -->
+                    <a href="faq.html">FAQ</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@pmlaptopscheme.gov</p>
+                    <p>Phone: +92-XXX-XXXXXXX</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><img src="/images/facebook.png" alt=""></a>
+                        <a href="http://www.instagram.com"><img src="/images/instagram.png" alt=""></a>
+                        <a href="www.youtube.com/"><img src="/images/youtube.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Prime Minister Laptop Scheme. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/news.js"></script>
+</body>
+
+</html>

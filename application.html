@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application - Prime Minister Laptop Scheme</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/application.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="images/pmlogo.png" alt="PM Laptop Scheme Logo">
+                    <h1>PM Laptop Scheme</h1>
+                </div>
+                <button class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="application.html" class="active">Application</a></li>
+                    <!-- <li><a href="news.html">News & Updates</a></li> -->
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Application Hero Section -->
+    <section class="application-hero">
+        <div class="container">
+            <h1>Apply for Laptop</h1>
+            <p>Fill out the application form to be considered for the Prime Minister Laptop Scheme</p>
+        </div>
+    </section>
+
+    <!-- Application Form Section -->
+    <section class="section application-form">
+        <div class="container">
+            <div class="form-container">
+                <h2>Application Form</h2>
+                <form id="laptopApplicationForm">
+                    <div class="form-group">
+                        <label for="fullName">Full Name *</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cnic">CNIC/B-Form Number *</label>
+                        <input type="text" id="cnic" name="cnic" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="institution">Educational Institution *</label>
+                        <input type="text" id="institution" name="institution" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="program">Program of Study *</label>
+                        <input type="text" id="program" name="program" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="semester">Current Semester/Year *</label>
+                        <input type="text" id="semester" name="semester" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cgpa">CGPA/GPA *</label>
+                        <input type="number" id="cgpa" name="cgpa" step="0.01" min="0" max="4" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="familyIncome">Monthly Family Income (PKR) *</label>
+                        <input type="number" id="familyIncome" name="familyIncome" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Residential Address *</label>
+                        <textarea id="address" name="address" rows="3" required></textarea>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I hereby declare that the information provided is true and correct to the
+                            best of my knowledge.</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-submit">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Status Section -->
+    <section class="section application-status">
+        <div class="container">
+            <h2 class="section-title">Check Application Status</h2>
+            <div class="status-container">
+                <p>Already applied? Check the status of your application using your CNIC number.</p>
+                <div class="status-form">
+                    <input type="text" id="statusCnic" placeholder="Enter your CNIC number">
+                    <button class="btn" id="checkStatus">Check Status</button>
+                </div>
+                <div id="statusResult" class="status-result"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PM Laptop Scheme</h3>
+                    <p>Empowering students through technology for a brighter future.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="application.html">Application</a>
+                    <!-- <a href="news.html" class="active">News & Updates</a> -->
+                    <a href="faq.html">FAQ</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@pmlaptopscheme.gov</p>
+                    <p>Phone: +92-3025163084</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><img src="images/facebook.png" alt=""></a>
+                        <a href="http://www.instagram.com"><img src="images/instagram.png" alt=""></a>
+                        <a href="https://www.youtube.com/"><img src="images/youtube.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Prime Minister Laptop Scheme. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/application.js"></script>
+</body>
+
+</html>
